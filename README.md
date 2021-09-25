@@ -1,0 +1,2 @@
+# javascript
+;earning javascript
