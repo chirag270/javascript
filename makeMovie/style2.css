@@ -1,0 +1,81 @@
+*{
+    margin:0;
+
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* css for nav bar */
+
+.navbar{
+    width: 103%;
+    height: 85px;
+    background-color: black;
+}
+
+.navbar-container{
+    display: flex;
+    align-items: center;
+    background-color: #b2aaff;
+    padding: 0px 50px;
+    height: 100%;
+}
+
+.logo-container{
+    flex:1;
+}
+.logo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: green;
+}
+
+
+.menu-container{
+    flex:6;
+}
+.menu-list{
+    display: flex;
+    list-style: none;
+    
+}
+
+.menu-list-item{
+    margin-right: 89px;
+}
+
+.menu-list-item.active{
+    font-weight: bold;
+    
+}
+.profile-container{
+    flex:1;
+    display: flex;
+    align-items: center;
+}
+
+.profile-text-container{
+    margin: 0px 20px;
+}
+.profile-picture{
+    width: 32px;;
+    height: 32px;;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.toogle{
+    width: 40px;;
+    height: 20px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.sidebar{
+    width: 50px;
+    height: 100%;
+    background-color: red;
+}
+

@@ -1,0 +1,99 @@
+to check node js version '''> node --version
+to chec npm version '''. > npm --version 
+
+start ---->  npm init
+
+
+
+--- how to install packages 
+    npm insatall express --save ]  " it install the all the dependieces of express "
+    "  i have deleted node module folder "
+
+
+    === [ npm install nodemon ]
+
+
+
+"
+         chorme, firefox, safari, opera, they used different engine of javascript .
+
+         spyder monkey { firefox }
+
+         enternrt exploerel using chakra
+
+         chrome using it's own chromiium engine 
+
+         v8 engine is too famous and faster
+
+         nodejs is just a runtinme enviroment 
+         
+
+         front end - react , angular 
+         backend -   nodejs 
+
+         Express js framework for web devlopment 
+
+         mongodb for database 
+         
+
+         npm is also too famous in javascript [ provides all modules ]
+
+
+
+
+
+
+"
+    +++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+    " "
+    Go to the website of chocklate.org 
+
+    " node packages manager [ npm] "
+    " go to the website of npm "
+
+
+
+
+
+    " node methods "
+    [
+        
+Array                 ArrayBuffer           Atomics               BigInt
+BigInt64Array         BigUint64Array        Boolean               Buffer
+DataView              Date                  Error                 EvalError
+FinalizationRegistry  Float32Array          Float64Array          Function
+Infinity              Int16Array            Int32Array            Int8Array
+Intl                  JSON                  Map                   Math
+NaN                   Number                Object                Promise
+Proxy                 RangeError            ReferenceError        Reflect
+RegExp                Set                   SharedArrayBuffer     String
+Symbol                SyntaxError           TextDecoder           TextEncoder
+TypeError             URIError              URL                   URLSearchParams
+Uint16Array           Uint32Array           Uint8Array            Uint8ClampedArray
+WeakMap               WeakRef               WeakSet               WebAssembly
+_                     _error                assert                async_hooks
+buffer                child_process         clearImmediate        clearInterval
+clearTimeout          cluster               console               constants
+crypto                decodeURI             decodeURIComponent    dgram
+diagnostics_channel   dns                   domain                encodeURI
+encodeURIComponent    escape                eval                  events
+fs                    global                globalThis            http
+http2                 https                 inspector             isFinite
+isNaN                 module                net                   os
+parseFloat            parseInt              path                  perf_hooks
+process               punycode              querystring           queueMicrotask
+readline              repl                  require               setImmediate
+setInterval           setTimeout            stream                string_decoder
+sys                   timers                tls                   trace_events
+tty                   undefined             unescape              url
+util                  v8                    vm                    wasi
+worker_threads        zlib
+
+__defineGetter__      __defineSetter__      __lookupGetter__      __lookupSetter__
+__proto__             hasOwnProperty        isPrototypeOf         propertyIsEnumerable
+toLocaleString        toString              valueOf
+
+constructor
+    ]

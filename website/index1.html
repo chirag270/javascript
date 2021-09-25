@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> learn how to create corner shadow</title>
+
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+        }
+
+
+        
+        body{
+            background-color: #e3edf7;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+
+        .skill{
+            
+        width: 160px;
+        height:160px;
+        background-color: rgb(240, 36, 230);
+
+        }
+
+        .container{
+        height: 160px;
+        width: 160px;
+        border-radius: 50%;
+        /* border: 1px solid red; */
+        box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+                    6px 6px 10px -1px rgba(255,255,255,0.7);
+        
+        /*  it is the shadow from the outside  */
+
+        padding: 90px;
+        }
+
+
+        .skill{
+        height: 120px;
+        width: 120px;
+        border-radius: 50%;
+        /*  for %number should be allign in center of the circle */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* border: 1px solid red; */
+        box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+      
+        }
+
+    </style>
+</head>
+<body>
+
+
+    <div class="skill">
+        <div>
+
+            
+        </div>
+    </div>
+    
+</body>
+</html>

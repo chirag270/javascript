@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Float Alignmment clear </title>
+
+    <style>
+
+            *{
+                box-sizing: border-box;
+
+            }
+
+            .container{
+
+                background-color: #d0a4e8;
+                width: 900px;
+                border: 3px solid rgb(157, 208, 221);
+                margin: 43px auto;
+
+
+            }
+            .item{
+                border: 3px solid grey;
+                margin: 42px 23px;
+                padding: 12px 3px;
+                background: rgb(221, 26, 133);
+            }
+
+
+            body{
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+
+            #fruit{
+                float: left;
+                width: 48%;
+            }
+
+            #computer{
+                float: left;
+                width: 48%;
+            }
+
+            #stationary{
+                clear: both;
+                width: 96%;
+            }
+
+
+            #glasses{
+                clear: both;
+                width: 96%;
+            }
+
+
+            p, h3{
+                text-align: left;
+                text-align: right;
+                text-align: center;
+                text-align: justify;
+
+            }
+
+
+            h1{
+                margin: 23px auto;
+                width : 455px;
+            }
+
+    </style>
+
+    
+</head>
+
+
+
+<body>
+
+    <div class="container">
+            <h1> Welcome to my Store </h1>
+        <div id = "fruit" class="item">
+            <h3> Fruits </h3>
+            <p id="fruitpara" class="class">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste porro quae dignissimos dolores, quibusdam quidem eaque cupiditate id voluptas, odio beatae accusantium odit corrupti laudantium eos et blanditiis molestias culpa.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque, ipsummolestias porro reprehenderit tempore doloremque, officiis numquam itaqueullam deleniti qui accusamus quia a nostrum laborum magnam non? Aliquid,dicta!
+            </p>
+
+        </div>
+
+        <div id = "computer" class="item">
+            <h3>Computers</h3>
+            <p id="computerpara" class="class">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste porro quae dignissimos dolores, quibusdam quidem eaque cupiditate id voluptas, odio beatae accusantium odit corrupti laudantium eos et blanditiis molestias culpa.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis cum iste nesciunt, nobis corrupti temporibus quae vero incidunt dolores obcaecati similique quibusdam suscipit molestiae tempore ipsam eos id vel. Quae?
+            </p>
+
+        </div>
+
+
+        <div id = "glasses" class="item">
+            <h3>Stationary </h3>
+            <p id="stationarypara" class="class">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste porro quae dignissimos dolores, quibusdam quidem eaque cupiditate id voluptas, odio beatae accusantium odit corrupti laudantium eos et blanditiis molestias culpa.</p>
+
+        </div>
+
+
+
+        <div id = "stationary" class="item">
+            <h3>Glasses  </h3>
+            <p id="stationarypara" class="class">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste porro quae dignissimos dolores, quibusdam quidem eaque cupiditate id voluptas, odio beatae accusantium odit corrupti laudantium eos et blanditiis molestias culpa.</p>
+
+        </div>
+    </div>
+    
+</body>
+</html>

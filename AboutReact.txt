@@ -1,0 +1,34 @@
+ 1. Create react app by react documentation [ official ]
+
+ ---> npm install -g Create-react-app
+
+ i use npx to use [ create an react app ]
+
+        ...> npx create-react-app my-app
+        [ it is create an react app ( folder) in my project folder ]
+
+    ::>  ignore node modules
+    ::>  ignore .gitignore
+
+
+
+
+    ::>  use Packagae.json
+    ::>  use package-lock.json
+
+
+    ::>  use src folder
+        [ index.js is render to responsible for all things ]
+
+
+        [ app.js for run { npm start } it i start to serve ]
+
+
+
+    ::>  use public folder 
+            [ indes.html files is more important to render ]  
+
+
+
+    ::> readme.md helps to display readme file on github pages ....
+

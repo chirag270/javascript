@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(223 32 239 / 80%);
+
+    /* it is for footer  */
+    /*  self made */
+    min-height: 100vh;
+}
+
+.navbar{
+    background-color: #0f0f0f;
+    border-radius: 10px 330px;
+            
+}
+.navbar ul{
+    overflow: auto;
+}
+          
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 20px 42px;
+}
+                                
+.navbar li a{
+    padding:  3px 3px;
+    text-decoration: none;
+}
+               
+.navbar li a:hover{
+    color: red;
+}

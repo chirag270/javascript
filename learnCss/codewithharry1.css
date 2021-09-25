@@ -1,0 +1,103 @@
+
+
+h3{
+        color:hsl(350, 100%, 50%);
+        font-size : xx-large;
+        font-weight: 900;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+
+
+/* pre{
+    color: cyan;
+} */
+
+
+/*   this is for element selctors  */
+#colorprepara{
+    color: blue;
+}
+
+
+/*  this is for class selectors  */
+.colorclass{
+
+    color: #00ff6a;
+    background-color: #5c0a0a;
+    font-style: initial;
+}
+
+
+
+/*  this is for group class selectors  */
+.grpcolorclass{
+    color: cyan;
+}
+
+
+
+footer, span{
+    background-color: hsl(350, 100%, 50%);
+
+}
+
+.fontfamily{
+    color: rgb(38, 0, 255);
+    font-family: cursive;
+    font-size: 23px;
+    /*  line hieight hepls to padding betwween two consecutive lines  */
+    line-height: 1.2em;
+    font-weight: bold;
+
+
+}
+
+
+span{
+    color: yellow;
+    font-style: italic;
+    
+}
+
+
+
+#parabyid{
+    background-color: rgb(red, green, #5a5ae62a)
+}
+
+
+
+
+#firstpara{
+
+    background-color:hsl(64, 79%, 73%);
+    height: 100px;
+    width: 455px;
+    border: 5px solid #021d1d;
+    /* border-width: 3px; */
+    /*  border-color: #bcb2f3; */
+    /* border-style: solid; */ 
+    border-radius: 11px;
+
+
+
+}
+
+
+
+#seccondpara{
+    background-color: #6d7677;
+    height: 100px;
+    width: 455px;
+    border-top: 2px solid #ffae00;
+    border-left: 2px solid hsl(241, 100%, 50%);
+    border-bottom: 12px solid #ff42f62a;
+    border-right: 8px solid hsl(138, 72%, 53%);
+}
+
+
+
+

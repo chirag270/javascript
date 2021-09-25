@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position in css</title>
+
+
+        <style>
+                .container{
+                    border: 2px solid rgb(182, 248, 182);
+                    background-color: rgb(241, 210, 210);
+                    height:  3344px;
+                }
+
+                .box{
+                    
+                    border: 2px solid red;
+                    width: 150px;
+                    height: 120px;
+
+                    /*  for consectuive gap */
+                    margin: 2px;
+
+                    /*  display inline */
+
+                    display: inline-block;
+                }
+
+                #box3{
+                    /* relative 
+                    static (default),
+                    absoulute,
+                    fixed,
+                    sticky
+                    */
+
+                    /* position: relative;
+                    /* relative to normal postion  */
+                    /* top: 34px;
+                    left: 34px; 
+                    /*  */
+                    
+
+                    /*  absolute relative to its first parent */
+                    /* position: absolute;
+                    /* relative to normal postion  */
+                    /* top: 34px;
+                    left: 34px; */
+
+
+
+                    /* to fix a thing on a place */
+                    /* position: fixed;
+                    right: 4px;
+                    bottom: 2px; */
+
+
+                    /* postion sticky */
+                    position: sticky;
+                }
+        </style>
+
+
+</head>
+<body>
+
+
+   <div class="container">
+    <div class="box" id="box1"></div>
+    <div class="box" id="box2"></div>
+    <div class="box" id="box3"> <h2>email me</h2></div>
+    <div class="box" id="box4"></div>
+   </div>
+    
+</body>
+</html>

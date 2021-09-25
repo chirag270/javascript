@@ -1,0 +1,10 @@
+#   Here we write all the things about javascript
+
+what makes javascript is popular
+        1. Have patience
+        2. why javascript
+        3. what is javascript   { it is just a programing langauage }
+
+
+what are javascript Engines-
+        1. ECMA Script
